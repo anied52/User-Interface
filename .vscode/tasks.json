@@ -6,5 +6,8 @@
   "windows": {
     "command": "explorer.exe"
   },
-  "args": ["${file}"]
+  "args": [
+    "${file}"
+  ],
+  "problemMatchers": []
 }
