@@ -64,9 +64,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	padding: 30px;
+}
+
 .nav {
 	display: inline-block;
 	width: 100%;
+	padding: 30px;
 }
 
 .nav-links {
@@ -91,7 +97,7 @@ h1, h2, h3, h4, h5 {
 
 .header-mid div {
 	display: inline-block;
-	width: 500px;
+	width: 49%;
 }
 
 .header-mid-left {
@@ -105,4 +111,14 @@ h1, h2, h3, h4, h5 {
 h1 {
 	font-size: 80px;
 	text-align: center;
+}
+
+.info-top {
+	display: inline-block;
+	width: 45%;
+}
+
+.info-bottom {
+	display: inline-block;
+	width: 33%;
 }
