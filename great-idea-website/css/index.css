@@ -70,12 +70,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-links {
-/*	width: 75%;*/
+	width: 75%;
 	display: inline-block;
+	list-style-type: none;
 }
 
 .nav-links li {
-	display: inline-block;
+	/*display: inline-block;*/
 	float: left;
 }
 
@@ -86,4 +87,22 @@ h1, h2, h3, h4, h5 {
 
 .logo {
 	float: right;
+}
+
+.header-mid div {
+	display: inline-block;
+	width: 500px;
+}
+
+.header-mid-left {
+	padding: 20px auto
+}
+
+.header-mid-left button {
+	display: block; margin: 0 auto;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
 }
